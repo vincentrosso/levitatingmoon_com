@@ -12,6 +12,7 @@
   <meta property="og:url" content="https://levitatingmoon.com/" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="canonical" href="https://levitatingmoon.com/" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="stylesheet" href="style.css" />
   <!-- Google AdSense -->
   <!-- Replace ca-pub-XXXXXXXXXXXXXXXX with your AdSense publisher ID -->
@@ -23,7 +24,7 @@
   <header class="site-header">
     <nav class="nav-inner">
       <a href="/" class="logo">
-        <span class="logo-icon">🌙</span>
+        <img src="assets/logo.png" alt="Levitating Moon Logo" class="logo-img" style="height: 32px; width: auto;">
         <span class="logo-text">Levitating Moon™</span>
       </a>
       <ul class="nav-links">
@@ -44,12 +45,24 @@
       <a href="shop.html" class="btn btn-primary">Shop Moon Lamps</a>
       <a href="blog.html" class="btn btn-ghost">How Does It Work?</a>
     </div>
-    <div class="hero-moon">
-      <div class="moon-orb">
-        <div class="moon-surface"></div>
-        <div class="moon-glow"></div>
+    <div class="hero-video-wrap">
+      <video autoplay muted loop playsinline class="hero-video">
+        <source src="assets/hero-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <!-- AS SEEN ON -->
+  <section class="as-seen-on">
+    <div class="container">
+      <p class="as-seen-text">As Seen In</p>
+      <div class="as-seen-logos">
+        <img src="assets/as-seen-in/cw.avif" alt="CW Logo">
+        <img src="assets/as-seen-in/fox.avif" alt="Fox Logo">
+        <img src="assets/as-seen-in/nbc.avif" alt="NBC Logo">
+        <img src="assets/as-seen-in/yahoo.avif" alt="Yahoo Logo">
       </div>
-      <div class="moon-base"></div>
     </div>
   </section>
 
@@ -67,33 +80,33 @@
 
         <div class="product-card">
           <div class="product-badge">Best Seller</div>
-          <div class="product-img moon-img-lg"></div>
+          <img src="assets/18cm-hero.jpg" alt="7 inch Levitating Moon Lamp" class="product-img-real">
           <div class="product-info">
             <h3>7" Levitating Moon Lamp</h3>
             <p>The classic. A photorealistic 7-inch floating moon with warm/cool LED modes. Makes the perfect gift.</p>
             <div class="product-stars">★★★★★ <span>4.6 (2,400+ reviews)</span></div>
             <!-- Replace YOUR_AMAZON_TAG with your Associates tracking ID e.g. levitatingmoon-20 -->
-            <a href="https://www.amazon.com/s?k=7+inch+levitating+moon+lamp&tag=YOUR_AMAZON_TAG" target="_blank" rel="noopener sponsored" class="btn btn-amazon">View on Amazon →</a>
+            <a href="https://www.amazon.com/s?k=7+inch+levitating+moon+lamp&tag=levitatingm07-20" target="_blank" rel="noopener sponsored" class="btn btn-amazon">View on Amazon →</a>
           </div>
         </div>
 
         <div class="product-card">
-          <div class="product-img moon-img-sm"></div>
+          <img src="assets/8.5cm-hero.jpg" alt="4 inch Levitating Moon Lamp" class="product-img-real">
           <div class="product-info">
             <h3>4" Levitating Moon Lamp</h3>
             <p>The compact version — perfect for desks, nightstands, and smaller spaces. Great budget gift.</p>
             <div class="product-stars">★★★★★ <span>4.5 (1,800+ reviews)</span></div>
-            <a href="https://www.amazon.com/s?k=4+inch+levitating+moon+lamp&tag=YOUR_AMAZON_TAG" target="_blank" rel="noopener sponsored" class="btn btn-amazon">View on Amazon →</a>
+            <a href="https://www.amazon.com/s?k=4+inch+levitating+moon+lamp&tag=levitatingm07-20" target="_blank" rel="noopener sponsored" class="btn btn-amazon">View on Amazon →</a>
           </div>
         </div>
 
         <div class="product-card">
-          <div class="product-img galaxy-img"></div>
+          <img src="assets/galaxy-hero.jpg" alt="Levitating Galaxy Lamp" class="product-img-real">
           <div class="product-info">
             <h3>Levitating Galaxy Lamp</h3>
             <p>A swirling galaxy suspended in mid-air. RGB color modes, remote control. A conversation starter.</p>
             <div class="product-stars">★★★★☆ <span>4.4 (900+ reviews)</span></div>
-            <a href="https://www.amazon.com/s?k=levitating+galaxy+lamp&tag=YOUR_AMAZON_TAG" target="_blank" rel="noopener sponsored" class="btn btn-amazon">View on Amazon →</a>
+            <a href="https://www.amazon.com/s?k=levitating+galaxy+lamp&tag=levitatingm07-20" target="_blank" rel="noopener sponsored" class="btn btn-amazon">View on Amazon →</a>
           </div>
         </div>
 
@@ -163,8 +176,8 @@
         <p>I bought a few for friends. Now we try to pay that gift forward. There is a simple joy in a floating glowing moon — a conversation starter, a reminder, a little piece of the cosmos for your desk.</p>
         <p><em>Take a look around. Enjoy.</em></p>
       </div>
-      <div class="about-moon-wrap">
-        <div class="about-moon"></div>
+      <div class="about-image-wrap">
+        <img src="assets/story-image.jpg" alt="Levitating Moon on Desk" class="about-image">
       </div>
     </div>
   </section>
