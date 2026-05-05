@@ -314,11 +314,10 @@
 
 .sidebar-product:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
 
-.sidebar-img {
+.sidebar-img-real {
   width: 70px; height: 70px;
+  object-fit: cover;
   border-radius: var(--radius-sm);
-  position: relative;
-  overflow: hidden;
   flex-shrink: 0;
 }
 
